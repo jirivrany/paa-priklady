@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<!--
+Pro zapnuti cache použijte <html manifest="money.manifest">
+-->
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Konverze dle kurzu - ukázka App Cache a Local Storage</title>
+    <link type="text/css" href="../css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="well">
+            <h1 id="title">Konvertor měn</h1>
+            <p>Ukázka App Cache + local storage.</p>
+            <form id="mainform" action="index.html" method="post">
+                <div class="form-group">
+                    <legend>Nastav Kurz</legend>
+                    <label for="kurz">kurz:</label>
+                    <input type="text" id="kurz" name="kurz" value="" />
+                    <button type="submit" class="btn btn-primary">Nastav</button>
+                </div>
+            </form>
+
+
+            <form id="calc" action="index.html" method="post">
+                <div class="form-group">
+                    <legend>Výpočet</legend>
+                    <label for="data">částka:</label>
+                    <input type="text" id="data" name="data" value="" />
+                    <button type="submit" class="btn btn-primary">konvertuj</button>
+                </div>
+            </form>
+        </div>
+        <p id="status">
+        </p>
+        <h2 id="result">
+        </h2>
+    </div>
+
+    <script type="text/javascript" src="konvertor.js"></script>
+
+</body>
+
+</html>
