@@ -1,0 +1,9 @@
+{
+  "name": "cyklomobile",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "requirejs": "~2.1.9",
+    "almond": "~0.2.6"
+  }
+}
