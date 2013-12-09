@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">konvertor</string>
+    <string name="action_settings">set rate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="convert_czk">convert to Czech Koruna</string>
+    <string name="convert_eur">convert to Euro</string>
+    <string name="button_convert">convert</string>
+    <string name="button_clear">clear</string>
+    <string name="error_null">Please set some value before converting.</string>
+    <string name="rate">rate</string>
+    <string name="rate_set">set exchange rate</string>
+    <string name="rate_desc">set exchange rate CZK/EUR</string>
+
+</resources>

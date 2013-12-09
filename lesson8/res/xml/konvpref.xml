@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference 
+        android:title="@string/rate_set" 
+        android:summary="@string/rate_desc" 
+        android:key="@string/rate"
+        android:defaultValue="27.0"
+        android:inputType="numberDecimal"
+        />
+    
+
+</PreferenceScreen>
