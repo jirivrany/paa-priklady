@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calllog"
+         />
+
+    <Button
+        android:id="@+id/buttonGallery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gallery" />
+    
+     <Button
+        android:id="@+id/buttonContacts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact" />
+     
+     <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next" />
+    
+</LinearLayout>
